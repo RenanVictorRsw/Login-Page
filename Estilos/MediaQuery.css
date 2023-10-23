@@ -36,13 +36,14 @@ menu #login{
 
  #login > a{
     padding: 30px;
-    padding-left: 20px;
-    transition: transform 0.3s;
+    margin-left: 0;
+
 }
 
- #login > a:hover{
-    transform: scale(1.2);
-    border-bottom: none;
+ #login  a:hover{
+border: none;
+margin: 0;
+
   
 
 }
