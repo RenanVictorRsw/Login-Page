@@ -8,7 +8,7 @@
 
 body{
     height: 100vh;
-    background-image: url(/Imagens/6213932.jpg);
+    background: url(/Imagens/6213932.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
