@@ -1,0 +1,75 @@
+
+body{
+    background-position: left center;
+}
+
+ul{position: relative;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+ 
+}
+
+ul > li > a{
+    font-size: 1.4em;
+    margin-left: 30px;
+    padding: 8px;
+    color: rgb(255, 255, 255);
+  
+
+}
+
+ul > li > a:hover{
+    border: none;
+    border-bottom: 4px solid white;
+    margin: 20px;
+    transition-duration: .8s;
+}
+
+ #login{
+position: absolute;
+left: 90%;
+    
+}
+
+#login a{ 
+padding: 10px;
+margin-left: 0;
+font-size: 1.5em;
+
+    
+ 
+}
+
+
+#login a:hover{
+    border: none;
+    margin: 0;
+}
+
+#login a:hover{
+    transform: scale(1.2);
+
+}
+
+
+
+#formulario{
+    height: 90vh;
+}
+
+#formulario > form{
+    width: 400px;
+    height:500px;
+}
+
+
+.dados > a >  span{
+    font-size: 1.1em;
+    margin-left:100px;
+
+}
+
+#formulario  input[type=submit]:hover{
+    background-color: #375b7e;
+}

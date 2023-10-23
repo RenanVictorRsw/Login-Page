@@ -1,0 +1,228 @@
+@charset "UTF-8";
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    height: 100vh;
+    background-image: url(/Imagens/6213932.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+
+}
+
+
+ul{
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    list-style: none;
+    padding: 20px;
+}
+
+
+
+
+ul > li > a{
+
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    font-size: 1em;
+
+ 
+      
+    
+}
+
+menu  #login{
+border: 2px solid white;;
+border-radius: 20px;
+font-size: 1em;
+
+
+
+ 
+}
+
+#login > a{
+    font-size: 1em;
+    padding: 15px;
+
+    
+ 
+}
+
+
+
+
+#formulario{
+    position: relative;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+
+   
+ 
+}
+
+#formulario > form{
+  
+    background-color:transparent;
+    border: 2px solid rgb(255,255,255, .5);
+    backdrop-filter: blur(20px);
+    box-shadow: 1px 1px 3px black;
+    height: 500px;
+    width: 400px;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 20px;
+  
+
+}
+
+
+#formulario  h1{
+    text-align: center;
+    font-size: 2em;
+    padding: 20px;
+}
+
+
+#icon-fechar{
+    position: relative;
+ 
+}
+
+
+#fechar{
+    position: absolute;
+    background-color: #192A3A;
+    color: white;
+    top: -20px;
+    right: -20px;
+    border-radius: 0 50%;
+    padding: 15px;
+    cursor: pointer;
+}
+
+
+
+
+#formulario .dados{
+    height: 80px;
+    margin: auto;
+    margin-top: 30px;
+
+}
+
+.dados input[type=email]{
+    display: block;
+    border: none;
+    width: 90%;
+    border-bottom: 2px solid black;
+    background-color: transparent;
+     font-size: 1.1em;
+     color: white;
+  
+}
+
+.dados input[type=password]{
+    display: block;
+    border: none;
+    width: 90%;
+    border-bottom: 2px solid black;
+    background-color: transparent;
+    font-size: 1.2em;
+    color: white;
+}
+
+
+
+.dados  input[type=email], .dados  input[type=password]:focus{
+    outline: none;
+
+}
+
+.dados .material-symbols-outlined{
+    display: flex;
+    justify-content: end;
+    margin-right: 40px;
+   color: #192A3A;
+}
+
+
+.dados input[type=checkbox]{
+    cursor: pointer;
+}
+
+.dados > a{
+    text-decoration: none;
+    color: #192A3A;
+}
+
+.dados > a:hover{
+    text-decoration: underline;
+}
+
+
+
+.dados > a > span{
+ margin: 10px;
+ font-size: 15px;
+ 
+}
+
+
+#formulario input[type=submit]{
+    display: block;
+    margin: auto;
+    margin-bottom: 20px;
+    background-color:#192A3A;
+    color: white;
+    font-size: 1.1em;
+    width: 70%;
+    height: 40px;
+    padding: 8px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+
+
+}
+
+#formulario p{
+    text-align: center;
+    margin: 30px;
+ 
+}
+
+#formulario a {
+
+    text-decoration: none;
+}
+
+
+#formulario a:active {
+    color: rgba(255, 255, 255, 0.705);
+    text-decoration: underline;
+}
+
+
+#formulario strong {
+    color: #192A3A;
+    text-decoration: none;
+}
+
+#formulario strong:hover {
+color: white;
+    text-decoration: underline;
+}
+
+
