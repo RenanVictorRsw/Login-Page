@@ -8,7 +8,7 @@
 
 body{
     height: 100vh;
-    background: url(/Imagens/6213932.jpg);
+    background-image: url("../Imagens/fundo-tela.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
